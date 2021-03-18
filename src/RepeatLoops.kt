@@ -1,6 +1,6 @@
 class RepeatLoops {
     fun printRepeatedLines() {
-        repeat(2) {
+        repeat(5) {
             println("Hello world!")
         }
     }

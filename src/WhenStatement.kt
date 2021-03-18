@@ -1,4 +1,8 @@
+//💡As well as a when statement,you can also define a when expression
+// that provides a return statement
+
 class WhenStatement {
+
     val results = 30
 
     fun printResults() {

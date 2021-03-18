@@ -1,6 +1,6 @@
 class WhileLoops {
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     var bicycles = 0
-
     fun incrementBicycles() {
         while (bicycles < 50) {
             bicycles++
@@ -10,7 +10,8 @@ class WhileLoops {
     fun printFiftyTimes() {
         println("$bicycles bicycles in the bicycle rack")
     }
-
+    //  ➡ 50 bicycles in the bicycle rack
+    //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     fun decrementBicycles() {
         do {
             bicycles--
@@ -20,6 +21,8 @@ class WhileLoops {
     fun printLessThanFiftyTimes() {
         println("$bicycles bicycles in the bicycle rack")
     }
+    //  ➡ 49 bicycles in the bicycle rack
+//    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 }
 
 fun main() {
