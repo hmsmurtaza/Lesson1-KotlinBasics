@@ -4,8 +4,21 @@ class ImmutableLists {
     fun printListElements() {
         print(instruments)
     }
+
+    fun printListUsingForLoops() {
+        for ((index, element) in instruments.withIndex()) {
+            print("Index $index is Element $element")
+        }
+    }
+
+    fun addItemInList() {
+        instruments.plus("drums")
+    }
 }
 
 fun main() {
-    ImmutableLists().printListElements()
+    val obj=ImmutableLists()
+    val obj1 = obj.addItemInList()
+//    obj.printListElements()
+    obj.printListUsingForLoops()
 }

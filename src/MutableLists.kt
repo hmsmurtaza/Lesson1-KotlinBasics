@@ -11,6 +11,7 @@ class MutableLists {
 
     fun removeMutableListElement() {
         mutableList.remove("piano")
+//        mutableList.removeAt(1)  ✴ Removing using index
         printMutableListElements()
     }
 
