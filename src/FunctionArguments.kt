@@ -29,6 +29,8 @@ fun reformat(str: String,
 // 📌 It is considered good style to put default arguments after positional arguments,
 //    that way callers only have to specify the required arguments
 fun main() {
+    val str = "Hello Kotlin"
+
     drive() // ➡ driving fast
     drive("slow")   // ➡ driving slow
     drive(speed = "turtle-like")    // ➡ driving turtle-like
@@ -36,4 +38,6 @@ fun main() {
     tempToday("Sunday", 20)
 
     reformat("Today is a day like no other day", false, '-')
+
+    reformat(str, divideByCamelHumps = false, wordSeparator = '_')
 }
