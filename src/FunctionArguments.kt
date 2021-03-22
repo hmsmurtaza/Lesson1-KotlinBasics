@@ -24,6 +24,10 @@ fun reformat(str: String,
     println("$str $divideByCamelHumps $wordSeparator $normalizeCase")
 }
 
+// 🔴 Named arguments
+// 📌 To improve readability, use named arguments for required arguments
+// 📌 It is considered good style to put default arguments after positional arguments,
+//    that way callers only have to specify the required arguments
 fun main() {
     drive() // ➡ driving fast
     drive("slow")   // ➡ driving slow
