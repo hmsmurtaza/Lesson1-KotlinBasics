@@ -18,6 +18,6 @@ fun main() {
     println("")
 
 //     println("You are already ${age}!")
-    println("You are already ${age} days old, ${name}!")
-    println("${age} days old is the very best age to celebrate!")
+    println("You are already $age days old, ${name}!")
+    println("$age days old is the very best age to celebrate!")
 }
