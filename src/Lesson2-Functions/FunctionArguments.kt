@@ -14,7 +14,6 @@ fun main() {
 // to improve readability, used named arguments to required arguments
     reformat("Today is a day like no other day", divideByCamelHumps = false, wordSeparator = '-')
 ////////////////////////////////////////////////////////////////////
-
 }
 
 // required parameters
